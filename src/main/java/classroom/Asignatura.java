@@ -13,18 +13,18 @@ public class Asignatura {
     }
     
     public Asignatura(int codigoExterno,Tipo tipo) {
-        this("Sin nombre", codigoExterno, 0,tipo);
+        this("Sin nombre", 0, codigoExterno, tipo);
     }
 
     public Asignatura(int codigoExterno, int codigoInterno,Tipo tipo) {
-        this("Sin nombre", 0, codigoExterno,tipo);
+        this("Sin nombre",codigoExterno, codigoInterno ,tipo);
     }
 
     public Asignatura(String nombre, Tipo tipo) {
         this(nombre, 0, 0,tipo);
     }
 
-    public Asignatura(String nombre, int codigoExterno,int codigoInterno,Tipo tipo) {
+    public Asignatura(String nombre, int codigoInterno, int codigoExterno, Tipo tipo) {
         this.nombre = nombre;
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;

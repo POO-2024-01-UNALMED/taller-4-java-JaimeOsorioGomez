@@ -9,28 +9,30 @@ public class Prueba {
 		    Asignatura asignatura3 = new Asignatura(1029, Tipo.FUNDAMENTACION);
 		    Asignatura asignatura4 = new Asignatura("Vision por computador", 3984, 4983, Tipo.ELECTIVA);
 		    
+		   
 		    System.out.println(asignatura1.nombre);
-		    System.out.println(asignatura1.tipo);
+		    System.out.println(asignatura1.tipo); 
 		    System.out.println(asignatura1.codigoExterno);
+		    System.out.println(asignatura2.nombre);
+		    System.out.println(asignatura2.tipo);
+		    System.out.println(asignatura2.codigoExterno);
+		    System.out.println(asignatura3.nombre);
+		    System.out.println(asignatura3.tipo);
+		    System.out.println(asignatura3.codigoExterno);
+		    System.out.println(asignatura4.nombre);
+		    System.out.println(asignatura4.tipo);
+		    System.out.println(asignatura4.codigoExterno);
+		   
+		       
+		       
+		        
+		    	 
+		   
+		     
 		    
-		    System.out.println( asignatura2.nombre.equals("POO"));
-		    System.out.println( asignatura2.tipo);
-		    System.out.println( asignatura2.codigoExterno);
-		    
-		    System.out.println( asignatura3.nombre);
-		    System.out.println( asignatura3.tipo);
-		    System.out.println( asignatura3.codigoExterno);
-		    
-		    System.out.println( asignatura4.nombre);
-		    System.out.println( asignatura4.tipo);
-		    System.out.println( asignatura4.codigoExterno);
-		    
-			  
-			  
-		    
+		   
 		 
-		           // asignatura3.nombre.equals("Sin nombre") && asignatura3.tipo == Tipo.FUNDAMENTACION && asignatura3.codigoExterno == 1029 &&
-		            //asignatura4.nombre.equals("Vision por computador") && asignatura4.tipo == Tipo.ELECTIVA && asignatura4.codigoExterno == 4983) 
+		           
 		    
 			
 		}
